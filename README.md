@@ -1,7 +1,7 @@
 php-cli-color
 =============
 
-Make php colorful CLI output easy
+Liven up you PHP Console Apps with standard colors
 
 ![image](https://raw.githubusercontent.com/lijinma/MyBox/master/php-cli-color.png)
 

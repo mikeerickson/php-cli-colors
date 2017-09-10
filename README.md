@@ -7,7 +7,7 @@ Liven up you PHP Console Apps with standard colors
 
 ##Installation
 
-`composer require codedungeon/php-cli-color '~1.0'`
+`composer require codedungeon/php-cli-colors '~1.0'`
 
 ##How to use
 
@@ -16,7 +16,7 @@ Liven up you PHP Console Apps with standard colors
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Codedungeon\Color;
+use Codedungeon\Colors;
 
 echo Color::GREEN . "Hello" . PHP_EOL;
 

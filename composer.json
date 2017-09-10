@@ -1,13 +1,13 @@
 {
     "name": "codedungeon/php-cli-color",
     "description": "Make colorful CLI output easy",
-    "homepage": "https://github.com/lijinma/php-cli-color",
+    "homepage": "https://github.com/mikeerickson/php-cli-color",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jinma li",
-            "email": "lijinma@126.com",
-            "homepage": "http://www.lijinma.com"
+            "name": "Mike Erickson",
+            "email": "codedungeon@gmail.com",
+            "homepage": "http://codedungeon.org"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lijinma\\": "src"
+            "Codedungeon\\PHPCliColor\\": "src/"
         }
     }
 }

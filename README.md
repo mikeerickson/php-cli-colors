@@ -42,5 +42,5 @@ Website: [codedungeon.org](http://codedungeon.org)
 
 ### Screenshot
 
-![Screenshot](https://github.com/mikeerickson/php-cli-color/blob/master/sample.png)
+![Screenshot](https://github.com/mikeerickson/php-cli-color/blob/master/resources/example.png)
 

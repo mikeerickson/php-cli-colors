@@ -1,7 +1,8 @@
-php-cli-color
-=============
+# php-cli-color
 
 Liven up you PHP Console Apps with standard colors
+[Packagist Link](https://packagist.org/packages/codedungeon/php-cli-colors)
+
 
 ![image](https://github.com/mikeerickson/php-cli-color/blob/master/resources/example.png)
 

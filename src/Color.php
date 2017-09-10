@@ -1,6 +1,6 @@
 <?php
 
-namespace Lijinma;
+namespace Codedungeon;
 
 class Color
 {

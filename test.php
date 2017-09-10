@@ -1,16 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: lijinma
- * Date: 14/12/23
- * Time: PM1:45
- */
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/src/Color.php';
 
-
-$colorClass = new ReflectionClass ('Lijinma\Color');
-$constants = $colorClass->getConstants();
+$colorClass = new ReflectionClass ('Codedungeon\Color');
+$constants  = $colorClass->getConstants();
 
 foreach ($constants as $key => $value) {
     if (strpos($key, 'BG') !== false) {

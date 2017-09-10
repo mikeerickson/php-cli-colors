@@ -5,11 +5,11 @@ Liven up you PHP Console Apps with standard colors
 
 ![image](https://github.com/mikeerickson/php-cli-color/blob/master/resources/example.png)
 
-##Installation
+## Installation
 
 `composer require codedungeon/php-cli-colors '~1.0'`
 
-##How to use
+## How to use
 
 ```php
 <?php
@@ -22,8 +22,9 @@ echo Color::GREEN . "Hello" . PHP_EOL;
 
 ```
 
+See `rainbow.php` sample for more details
 
-### License
+## License
 
 Copyright &copy; 2017 Mike Erickson
 Released under the MIT license

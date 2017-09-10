@@ -1,7 +1,7 @@
 {
-    "name": "codedungeon/php-cli-color",
-    "description": "Make colorful CLI output easy",
-    "homepage": "https://github.com/mikeerickson/php-cli-color",
+    "name": "codedungeon/php-cli-colors",
+    "description": "PHP Package for using color output in CLI commands",
+    "homepage": "https://github.com/mikeerickson/php-cli-colors",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Codedungeon\\PHPCliColor\\": "src/"
+            "Codedungeon\\PHPCliColors\\": "src/"
         }
     },
     "require-dev": {

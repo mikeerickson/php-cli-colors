@@ -3,11 +3,11 @@ php-cli-color
 
 Liven up you PHP Console Apps with standard colors
 
-![image](https://raw.githubusercontent.com/lijinma/MyBox/master/php-cli-color.png)
+![image](https://github.com/mikeerickson/php-cli-color/blob/master/resources/example.png)
 
 ##Installation
 
-`composer require lijinma/php-cli-color '~1.0'`
+`composer require codedungeon/php-cli-color '~1.0'`
 
 ##How to use
 
@@ -16,10 +16,31 @@ Liven up you PHP Console Apps with standard colors
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Lijinma\Color;
+use Codedungeon\Color;
 
 echo Color::GREEN . "Hello" . PHP_EOL;
 
 ```
 
+
+### License
+
+Copyright &copy; 2017 Mike Erickson
+Released under the MIT license
+
+
+### Credits
+
+php-cli-color written by Mike Erickson
+
+E-Mail: [codedungeon@gmail.com](mailto:codedungeon@gmail.com)
+
+Twitter: [@codedungeon](http://twitter.com/codedungeon)
+
+Website: [codedungeon.org](http://codedungeon.org)
+
+
+### Screenshot
+
+![Screenshot](https://github.com/mikeerickson/php-cli-color/blob/master/sample.png)
 

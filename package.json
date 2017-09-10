@@ -1,6 +1,6 @@
 {
   "name": "cd-php-cli-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "php-cli-color =============",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
     "name": "codedungeon/php-cli-colors",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "PHP Package for using color output in CLI commands",
     "homepage": "https://github.com/mikeerickson/php-cli-colors",
     "license": "MIT",

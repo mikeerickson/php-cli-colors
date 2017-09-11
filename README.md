@@ -1,7 +1,8 @@
-# php-cli-color
+# php-cli-colors
 
 Liven up you PHP Console Apps with standard colors
-[Packagist Link](https://packagist.org/packages/codedungeon/php-cli-colors)
+
+[View on Packagist](https://packagist.org/packages/codedungeon/php-cli-colors)
 
 
 ![image](https://github.com/mikeerickson/php-cli-color/blob/master/resources/example.png)
@@ -9,6 +10,17 @@ Liven up you PHP Console Apps with standard colors
 ## Installation
 
 `composer require codedungeon/php-cli-colors '~1.0'`
+
+or update your `composer.json`
+
+```
+    ...
+    "require": {
+        "codedungeon/php-cli-colors": "~1.0"
+    },
+    ... 
+```
+
 
 ## How to use
 

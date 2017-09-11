@@ -3,6 +3,7 @@
     "description": "PHP Package for using color output in CLI commands",
     "homepage": "https://github.com/mikeerickson/php-cli-colors",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "Mike Erickson",

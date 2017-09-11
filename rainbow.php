@@ -10,6 +10,7 @@ $colors = [
 
 
 foreach ($colors as $colorItem) {
+
     $method       = $colorItem;
     $bold_method  = "bold_" .$colorItem;
     $light_method = "light_" .$colorItem;

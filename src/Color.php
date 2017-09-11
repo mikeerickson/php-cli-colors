@@ -1,6 +1,6 @@
 <?php
 
-namespace Codedungeon;
+namespace Codedungeon\PHPCliColors;
 
 class Color
 {

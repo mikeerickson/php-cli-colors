@@ -2,7 +2,7 @@
 
 require __DIR__ . '/src/Color.php';
 
-$color = new Codedungeon\Color;
+$color = new Codedungeon\PHPCliColors\Color();
 
 $colors = [
     "white", "red", "blue", "green", "cyan", "yellow", "magenta", "gray"

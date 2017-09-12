@@ -21,7 +21,7 @@ class Color
     const PURPLE = "\033[0;35m";
     const BG_BLACK = "\033[40m";
     const BG_GREEN = "\033[42m";
-    const YELLOW = "\033[1;33m";
+    const YELLOW = "\033[0;33m";
     const BG_YELLOW = "\033[43m";
     const BG_MAGENTA = "\033[45m";
     const DARK_GRAY = "\033[1;30m";

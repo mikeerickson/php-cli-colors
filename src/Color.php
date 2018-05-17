@@ -8,7 +8,7 @@ class Color
     const WHITE = "\e[0m";
     const NORMAL = "\e[0m";
     const RED = "\033[0;31m";
-    const BG_WHITE="\e[107m";
+    const BG_WHITE = "\e[107m";
     const BLUE = "\033[0;34m";
     const CYAN = "\033[0;36m";
     const BG_RED = "\033[41m";
@@ -233,6 +233,32 @@ class Color
     }
 
     public static function bg_magenta($bold = 0)
+    {
+        return "\e[{$bold};30;45m";
+    }
+
+    // PURPLE
+    public static function purple()
+    {
+        return self::MAGENTA;
+    }
+
+    public static function lpurple()
+    {
+        return self::LIGHT_MAGENTA;
+    }
+
+    public static function light_purple()
+    {
+        return self::LIGHT_MAGENTA;
+    }
+
+    public static function bold_purple()
+    {
+        return self::LIGHT_MAGENTA;
+    }
+
+    public static function bg_purple($bold = 0)
     {
         return "\e[{$bold};30;45m";
     }

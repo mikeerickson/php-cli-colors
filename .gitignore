@@ -5,3 +5,4 @@ composer.lock
 .idea/
 NOTES.md
 sandbox/
+.history/

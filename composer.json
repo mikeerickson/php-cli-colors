@@ -1,21 +1,23 @@
 {
-    "name": "codedungeon/php-cli-colors",
-    "version": "1.10.3",
-    "description": "PHP Package for using color output in CLI commands",
-    "keywords": ["composer","colors","color","php","package"],
-    "homepage": "https://github.com/mikeerickson/php-cli-colors",
-    "license": "MIT",
-    "authors": [{
-        "name": "Mike Erickson",
-        "email": "codedungeon@gmail.com"
-    }],
-    "type": "library",
-    "require-dev": {
-        "phpunit/phpunit": ">=5.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "Codedungeon\\PHPCliColors\\": "src/"
-        }
+  "name": "codedungeon/php-cli-colors",
+  "version": "1.10.4",
+  "description": "PHP Package for using color output in CLI commands",
+  "keywords": ["composer", "colors", "color", "php", "package"],
+  "homepage": "https://github.com/mikeerickson/php-cli-colors",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mike Erickson",
+      "email": "codedungeon@gmail.com"
     }
+  ],
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": ">=5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Codedungeon\\PHPCliColors\\": "src/"
+    }
+  }
 }

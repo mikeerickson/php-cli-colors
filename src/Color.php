@@ -19,6 +19,7 @@ class Color
     const BG_BLUE = "\033[44m";
     const BG_CYAN = "\033[46m";
     const PURPLE = "\033[0;35m";
+    const MAGENTA = "\033[0;35m";
     const BG_BLACK = "\033[40m";
     const BG_GREEN = "\033[42m";
     const YELLOW = "\033[0;33m";
@@ -35,7 +36,6 @@ class Color
     const BG_LIGHT_GRAY = "\033[47m";
     const LIGHT_PURPLE = "\033[1;35m";
     const LIGHT_YELLOW = "\033[1;93m";
-    const MAGENTA = "\033[0;35m";
     const LIGHT_MAGENTA = "\033[1;35m";
 
     /**
@@ -262,6 +262,5 @@ class Color
     {
         return "\e[{$bold};30;47m";
     }
-
 
 }

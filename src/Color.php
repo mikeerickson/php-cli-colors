@@ -73,6 +73,7 @@ class Color
     const BG_LIGHT_CYAN = "\e[106m";
     const BG_WHITE = "\e[107m";
 
+    // Reset
     public static function normal()
     {
         return self::NORMAL;
@@ -82,6 +83,23 @@ class Color
     {
         return self::RESET;
     }
+    public static function reset_bb() { return self::BG_DEFAULT;}
+    public static function reset_fg() { return self::FG_DEFAULT;}
+
+    // Atributes
+    public static function bold() { return self::BOLD;}
+    public static function un_bold() { return self::UN_BOLD;}
+    public static function dim() { return self::DIM;}
+    public static function un_dim() { return self::UN_DIM;}
+    public static function underlined() { return self::UNDERLINED;}
+    public static function un_underlined() { return self::UN_UNDERLINED;}
+    public static function blink() { return self::BLINK;}
+    public static function un_blink() { return self::UN_BLINK;}
+    public static function reverse() { return self::REVERSE;}
+    public static function un_reverse() { return self::UN_REVERSE;}
+    public static function hidden() { return self::HIDDEN;}
+    public static function un_hidden() { return self::UN_HIDDEN;}
+
 
     // WHITE
     public static function white()
@@ -358,4 +376,15 @@ class Color
     {
         return self::BLACK;
     }
+    public static function dark_gray() { return self::DARK_GRAY;}
+    public static function brown() { return self::BROWN;}
+
+    public static function bg_black() { return self::BG_BLACK;}
+    public static function bg_brown() { return self::BG_YELLOW;}
+    public static function bg_dark_gray() { return self::BG_DARK_GRAY;}
+    public static function bg_light_red() { return self::BG_LIGHT_RED;}
+    public static function bg_light_green() { return self::BG_LIGHT_GREEN;}
+    public static function bg_light_blue() { return self::BG_LIGHT_BLUE;}
+    public static function bg_light_magenta() { return self::BG_LIGHT_MAGENTA;}
+    public static function bg_light_cyan() { return self::BG_LIGHT_CYAN;}
 }

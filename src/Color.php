@@ -4,9 +4,26 @@ namespace Codedungeon\PHPCliColors;
 
 class Color
 {
+    // Reset all
     const RESET = "\e[0m";
     const WHITE = "\e[0m";
     const NORMAL = "\e[0m";
+
+    // Attributes
+    const BOLD = "\e[1m";
+    const UN_BOLD = "\e[21m";
+    const DIM = "\e[2m";
+    const UN_DIM = "\e[22m";
+    const UNDERLINED = "\e[4m";
+    const UN_UNDERLINED = "\e[24m";
+    const BLINK = "\e[5m";
+    const UN_BLINK = "\e[25m";
+    const REVERSE = "\e[7m";
+    const UN_REVERSE = "\e[27m";
+    const HIDDEN = "\e[8m";
+    const UN_HIDDEN = "\e[28m";
+
+    // Forground colors (Warning: some include reset-all)
     const BLACK = "\033[0;30m";
     const DARK_GRAY = "\033[1;30m";
     const RED = "\033[0;31m";
@@ -27,14 +44,6 @@ class Color
     const BOLD_WHITE = "\033[1;38m";
     const LIGHT_WHITE = "\033[1;38m";
     const FG_DEFAULT = "\033[39m";
-    const BG_BLACK = "\033[40m";
-    const BG_RED = "\033[41m";
-    const BG_GREEN = "\033[42m";
-    const BG_YELLOW = "\033[43m";
-    const BG_BLUE = "\033[44m";
-    const BG_MAGENTA = "\033[45m";
-    const BG_CYAN = "\033[46m";
-    const BG_LIGHT_GRAY = "\033[47m";
     const GRAY = "\033[0;90m";
     const LIGHT_RED_ALT = "\033[91m";
     const LIGHT_GREEN_ALT = "\033[92m";
@@ -44,6 +53,17 @@ class Color
     const LIGHT_MAGENTA_ALT = "\033[95m";
     const LIGHT_CYAN_ALT = "\033[96m";
     const LIGHT_WHITE_ALT = "\033[97m";
+
+    // Backgrounds
+    const BG_BLACK = "\033[40m";
+    const BG_RED = "\033[41m";
+    const BG_GREEN = "\033[42m";
+    const BG_YELLOW = "\033[43m";
+    const BG_BLUE = "\033[44m";
+    const BG_MAGENTA = "\033[45m";
+    const BG_CYAN = "\033[46m";
+    const BG_LIGHT_GRAY = "\033[47m";
+    const BG_DEFAULT = "\033[49m";
     const BG_DARK_GRAY = "\e[100m";
     const BG_LIGHT_RED = "\e[101m";
     const BG_LIGHT_GREEN = "\e[102m";

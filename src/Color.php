@@ -6,7 +6,6 @@ class Color
 {
     // Reset all
     const RESET = "\e[0m";
-    const WHITE = "\e[0m";
     const NORMAL = "\e[0m";
 
     // Attributes
@@ -43,6 +42,7 @@ class Color
     const LIGHT_GRAY = "\033[2;37m";
     const BOLD_WHITE = "\033[1;38m";
     const LIGHT_WHITE = "\033[1;38m";
+    const WHITE = "\033[2;38m";
     const FG_DEFAULT = "\033[39m";
     const GRAY = "\033[2;90m";
     const LIGHT_RED_ALT = "\033[91m";
@@ -86,7 +86,7 @@ class Color
     // WHITE
     public static function white()
     {
-        return self::LIGHT_WHITE;
+        return self::WHITE;
     }
 
     public static function lwhite()
@@ -351,5 +351,11 @@ class Color
         }
 
         return self::BG_LIGHT_GRAY . ($bold ? self::BOLD : self::UN_BOLD);
+    }
+
+    // Other
+    public static function black()
+    {
+        return self::BLACK;
     }
 }

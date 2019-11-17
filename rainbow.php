@@ -25,11 +25,15 @@ foreach ($colors as $colorItem) {
     $bg_method = "bg_" . $colorItem;
 
     echo $color::$method() . "Regular {$colorItem}, "
+        . $color::reset()
         . $color::$bold_method() . "Bold {$colorItem}, "
+        . $color::reset()
         . $color::$light_method() . "Light {$colorItem}, "
+        . $color::reset()
         . $color::$bg_method() . "Background {$colorItem}, "
-        . $color::$bg_method(1) . "Bold Background {$colorItem}"
-
+        . $color::reset()
+        . $color::$bg_method(true) . "Bold White on Background {$colorItem}, "
+        . $color::black() . "Black on Background {$colorItem}"
         . $color::reset()
         . PHP_EOL;
 }

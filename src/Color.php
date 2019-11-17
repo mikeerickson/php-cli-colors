@@ -86,7 +86,7 @@ class Color
     // WHITE
     public static function white()
     {
-        return self::WHITE;
+        return self::LIGHT_WHITE;
     }
 
     public static function lwhite()
@@ -104,9 +104,13 @@ class Color
         return self::LIGHT_WHITE;
     }
 
-    public static function bg_white($bold = 0)
+    public static function bg_white($bold = null)
     {
-        return "\e[{$bold};30;107m";
+        if ($bold === null) {
+            return self::BG_WHITE;
+        }
+
+        return self::BG_WHITE . ($bold ? self::BOLD : self::UN_BOLD);
     }
 
     // RED
@@ -130,9 +134,13 @@ class Color
         return self::LIGHT_RED;
     }
 
-    public static function bg_red($bold = 0)
+    public static function bg_red($bold = null)
     {
-        return "\e[{$bold};97;41m";
+        if ($bold === null) {
+            return self::BG_RED;
+        }
+
+        return self::BG_RED . ($bold ? self::BOLD : self::UN_BOLD);
     }
 
     // BLUE
@@ -156,9 +164,13 @@ class Color
         return self::LIGHT_BLUE;
     }
 
-    public static function bg_blue($bold = 0)
+    public static function bg_blue($bold = null)
     {
-        return "\e[{$bold};30;44m";
+        if ($bold === null) {
+            return self::BG_BLUE;
+        }
+
+        return self::BG_BLUE . ($bold ? self::BOLD : self::UN_BOLD);
     }
 
     // GREEN
@@ -182,9 +194,13 @@ class Color
         return self::LIGHT_GREEN;
     }
 
-    public static function bg_green($bold = 0)
+    public static function bg_green($bold = null)
     {
-        return "\e[{$bold};30;42m";
+        if ($bold === null) {
+            return self::BG_GREEN;
+        }
+
+        return self::BG_GREEN . ($bold ? self::BOLD : self::UN_BOLD);
     }
 
     // CYAN
@@ -208,9 +224,13 @@ class Color
         return self::LIGHT_CYAN;
     }
 
-    public static function bg_cyan($bold = 0)
+    public static function bg_cyan($bold = null)
     {
-        return "\e[{$bold};30;46m";
+        if ($bold === null) {
+            return self::BG_CYAN;
+        }
+
+        return self::BG_CYAN . ($bold ? self::BOLD : self::UN_BOLD);
     }
 
     // YELLOW
@@ -234,9 +254,13 @@ class Color
         return self::LIGHT_YELLOW;
     }
 
-    public static function bg_yellow($bold = 0)
+    public static function bg_yellow($bold = null)
     {
-        return "\e[{$bold};30;43m";
+        if ($bold === null) {
+            return self::BG_LIGHT_YELLOW;
+        }
+
+        return self::BG_LIGHT_YELLOW . ($bold ? self::BOLD : self::UN_BOLD);
     }
 
     // MAGENTA
@@ -260,9 +284,13 @@ class Color
         return self::LIGHT_MAGENTA;
     }
 
-    public static function bg_magenta($bold = 0)
+    public static function bg_magenta($bold = null)
     {
-        return "\e[{$bold};30;45m";
+        if ($bold === null) {
+            return self::BG_MAGENTA;
+        }
+
+        return self::BG_MAGENTA . ($bold ? self::BOLD : self::UN_BOLD);
     }
 
     // PURPLE
@@ -286,9 +314,13 @@ class Color
         return self::LIGHT_MAGENTA;
     }
 
-    public static function bg_purple($bold = 0)
+    public static function bg_purple($bold = null)
     {
-        return "\e[{$bold};30;45m";
+        if ($bold === null) {
+            return self::BG_MAGENTA;
+        }
+
+        return self::BG_MAGENTA . ($bold ? self::BOLD : self::UN_BOLD);
     }
 
     // GRAY
@@ -312,9 +344,12 @@ class Color
         return self::LIGHT_GRAY;
     }
 
-    public static function bg_gray($bold = 0)
+    public static function bg_gray($bold = null)
     {
-        return "\e[{$bold};30;47m";
-    }
+        if ($bold === null) {
+            return self::BG_LIGHT_GRAY;
+        }
 
+        return self::BG_LIGHT_GRAY . ($bold ? self::BOLD : self::UN_BOLD);
+    }
 }

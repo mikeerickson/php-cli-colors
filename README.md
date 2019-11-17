@@ -27,10 +27,11 @@ or update your `composer.json`
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Codedungeon\Colors;
+use Codedungeon\PHPCliColors\Color;
 
-echo Color::GREEN . "Hello" . PHP_EOL;
+echo Color::GREEN, 'Hello', Color::RESET, PHP_EOL;
 ```
+![above exemple](resources/readme.png)
 
 See `rainbow.php` sample for more details
 

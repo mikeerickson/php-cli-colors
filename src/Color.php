@@ -73,14 +73,6 @@ class Color
     const BG_LIGHT_CYAN = "\e[106m";
     const BG_WHITE = "\e[107m";
 
-
-    /**
-     * Colors constructor.
-     */
-    public function __construct()
-    {
-    }
-
     public static function normal()
     {
         return self::NORMAL;

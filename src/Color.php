@@ -26,6 +26,7 @@ class Color
     const LIGHT_GRAY = "\033[0;37m";
     const BOLD_WHITE = "\033[1;38m";
     const LIGHT_WHITE = "\033[1;38m";
+    const FG_DEFAULT = "\033[39m";
     const BG_BLACK = "\033[40m";
     const BG_RED = "\033[41m";
     const BG_GREEN = "\033[42m";
@@ -35,7 +36,14 @@ class Color
     const BG_CYAN = "\033[46m";
     const BG_LIGHT_GRAY = "\033[47m";
     const GRAY = "\033[0;90m";
+    const LIGHT_RED_ALT = "\033[91m";
+    const LIGHT_GREEN_ALT = "\033[92m";
+    const LIGHT_YELLOW_ALT = "\033[93m";
     const LIGHT_YELLOW = "\033[1;93m";
+    const LIGHT_BLUE_ALT = "\033[94m";
+    const LIGHT_MAGENTA_ALT = "\033[95m";
+    const LIGHT_CYAN_ALT = "\033[96m";
+    const LIGHT_WHITE_ALT = "\033[97m";
     const BG_DARK_GRAY = "\e[100m";
     const BG_LIGHT_RED = "\e[101m";
     const BG_LIGHT_GREEN = "\e[102m";

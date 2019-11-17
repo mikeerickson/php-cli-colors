@@ -36,6 +36,13 @@ class Color
     const BG_LIGHT_GRAY = "\033[47m";
     const GRAY = "\033[0;90m";
     const LIGHT_YELLOW = "\033[1;93m";
+    const BG_DARK_GRAY = "\e[100m";
+    const BG_LIGHT_RED = "\e[101m";
+    const BG_LIGHT_GREEN = "\e[102m";
+    const BG_LIGHT_YELLOW = "\e[103m";
+    const BG_LIGHT_BLUE = "\e[104m";
+    const BG_LIGHT_MAGENTA = "\e[105m";
+    const BG_LIGHT_CYAN = "\e[106m";
     const BG_WHITE = "\e[107m";
 
 

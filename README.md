@@ -4,7 +4,7 @@ Liven up you PHP Console Apps with standard colors
 
 [View on Packagist](https://packagist.org/packages/codedungeon/php-cli-colors)
 
-![image](https://github.com/mikeerickson/php-cli-color/blob/master/resources/example.png)
+![image](resources/example.png)
 
 ## Installation
 
@@ -27,10 +27,11 @@ or update your `composer.json`
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Codedungeon\Colors;
+use Codedungeon\PHPCliColors\Color;
 
-echo Color::GREEN . "Hello" . PHP_EOL;
+echo Color::GREEN, 'Hello', Color::RESET, PHP_EOL;
 ```
+![above exemple](resources/readme.png)
 
 See `rainbow.php` sample for more details
 
@@ -51,4 +52,4 @@ Website: [codedungeon.org](http://codedungeon.org)
 
 ### Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/mikeerickson/php-cli-colors/master/resources/example.png)
+![Screenshot](resources/example.png)

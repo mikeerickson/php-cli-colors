@@ -1,0 +1,25 @@
+{
+  "name": "php-cli-colors",
+  "version": "1.12.0",
+  "description": "Liven up you PHP Console Apps with standard colors!",
+  "main": "index.js",
+  "scripts": {
+    "test": "php rainbow.php",
+    "publish": "./tasks/publish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeerickson/cd-php-cli-color.git"
+  },
+  "keywords": [],
+  "author": "Mike Erickson <codedungeon@gmail.com> (https://github.com/mikeerickson)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeerickson/cd-php-cli-color/issues"
+  },
+  "homepage": "https://github.com/mikeerickson/cd-php-cli-color#readme",
+  "devDependencies": {
+    "@codedungeon/messenger": "0.9.1",
+    "prettier": "2.2.1"
+  }
+}

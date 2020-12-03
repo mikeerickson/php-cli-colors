@@ -1,0 +1,5 @@
+# move this file to project root
+
+node_modules
+npm-debug.log
+logs/*

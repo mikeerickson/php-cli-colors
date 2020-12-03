@@ -6,3 +6,4 @@ composer.lock
 NOTES.md
 sandbox/
 .history/
+*.taskpaper

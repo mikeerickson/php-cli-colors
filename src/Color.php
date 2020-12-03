@@ -23,28 +23,28 @@ class Color
     const UN_HIDDEN = "\e[28m";
 
     // Forground colors (Warning: some include bold / unbold)
-    const BLACK = "\033[2;30m";
+    const BLACK = "\033[0;30m";
     const DARK_GRAY = "\033[1;30m";
-    const RED = "\033[2;31m";
+    const RED = "\033[0;31m";
     const LIGHT_RED = "\033[1;31m";
-    const GREEN = "\033[2;32m";
+    const GREEN = "\033[0;32m";
     const LIGHT_GREEN = "\033[1;32m";
-    const BROWN = "\033[2;33m";
-    const YELLOW = "\033[2;33m";
-    const BLUE = "\033[2;34m";
+    const BROWN = "\033[0;33m";
+    const YELLOW = "\033[0;33m";
+    const BLUE = "\033[0;34m";
     const LIGHT_BLUE = "\033[1;34m";
-    const MAGENTA = "\033[2;35m";
+    const MAGENTA = "\033[0;35m";
     const PURPLE = "\033[2;35m";
     const LIGHT_MAGENTA = "\033[1;35m";
     const LIGHT_PURPLE = "\033[1;35m";
-    const CYAN = "\033[2;36m";
+    const CYAN = "\033[0;36m";
     const LIGHT_CYAN = "\033[1;36m";
     const LIGHT_GRAY = "\033[2;37m";
     const BOLD_WHITE = "\033[1;38m";
     const LIGHT_WHITE = "\033[1;38m";
-    const WHITE = "\033[2;38m";
+    const WHITE = "\033[0;38m";
     const FG_DEFAULT = "\033[39m";
-    const GRAY = "\033[2;90m";
+    const GRAY = "\033[0;90m";
     const LIGHT_RED_ALT = "\033[91m";
     const LIGHT_GREEN_ALT = "\033[92m";
     const LIGHT_YELLOW_ALT = "\033[93m";
@@ -83,22 +83,64 @@ class Color
     {
         return self::RESET;
     }
-    public static function reset_bb() { return self::BG_DEFAULT;}
-    public static function reset_fg() { return self::FG_DEFAULT;}
+    public static function reset_bb()
+    {
+        return self::BG_DEFAULT;
+    }
+    public static function reset_fg()
+    {
+        return self::FG_DEFAULT;
+    }
 
     // Atributes
-    public static function bold() { return self::BOLD;}
-    public static function un_bold() { return self::UN_BOLD;}
-    public static function dim() { return self::DIM;}
-    public static function un_dim() { return self::UN_DIM;}
-    public static function underlined() { return self::UNDERLINED;}
-    public static function un_underlined() { return self::UN_UNDERLINED;}
-    public static function blink() { return self::BLINK;}
-    public static function un_blink() { return self::UN_BLINK;}
-    public static function reverse() { return self::REVERSE;}
-    public static function un_reverse() { return self::UN_REVERSE;}
-    public static function hidden() { return self::HIDDEN;}
-    public static function un_hidden() { return self::UN_HIDDEN;}
+    public static function bold()
+    {
+        return self::BOLD;
+    }
+    public static function un_bold()
+    {
+        return self::UN_BOLD;
+    }
+    public static function dim()
+    {
+        return self::DIM;
+    }
+    public static function un_dim()
+    {
+        return self::UN_DIM;
+    }
+    public static function underlined()
+    {
+        return self::UNDERLINED;
+    }
+    public static function un_underlined()
+    {
+        return self::UN_UNDERLINED;
+    }
+    public static function blink()
+    {
+        return self::BLINK;
+    }
+    public static function un_blink()
+    {
+        return self::UN_BLINK;
+    }
+    public static function reverse()
+    {
+        return self::REVERSE;
+    }
+    public static function un_reverse()
+    {
+        return self::UN_REVERSE;
+    }
+    public static function hidden()
+    {
+        return self::HIDDEN;
+    }
+    public static function un_hidden()
+    {
+        return self::UN_HIDDEN;
+    }
 
 
     // WHITE
@@ -199,7 +241,7 @@ class Color
 
     public static function lgreen()
     {
-        return self::LIGHT_RED;
+        return self::LIGHT_GREEN;
     }
 
     public static function light_green()
@@ -376,15 +418,45 @@ class Color
     {
         return self::BLACK;
     }
-    public static function dark_gray() { return self::DARK_GRAY;}
-    public static function brown() { return self::BROWN;}
+    public static function dark_gray()
+    {
+        return self::DARK_GRAY;
+    }
+    public static function brown()
+    {
+        return self::BROWN;
+    }
 
-    public static function bg_black() { return self::BG_BLACK;}
-    public static function bg_brown() { return self::BG_YELLOW;}
-    public static function bg_dark_gray() { return self::BG_DARK_GRAY;}
-    public static function bg_light_red() { return self::BG_LIGHT_RED;}
-    public static function bg_light_green() { return self::BG_LIGHT_GREEN;}
-    public static function bg_light_blue() { return self::BG_LIGHT_BLUE;}
-    public static function bg_light_magenta() { return self::BG_LIGHT_MAGENTA;}
-    public static function bg_light_cyan() { return self::BG_LIGHT_CYAN;}
+    public static function bg_black()
+    {
+        return self::BG_BLACK;
+    }
+    public static function bg_brown()
+    {
+        return self::BG_YELLOW;
+    }
+    public static function bg_dark_gray()
+    {
+        return self::BG_DARK_GRAY;
+    }
+    public static function bg_light_red()
+    {
+        return self::BG_LIGHT_RED;
+    }
+    public static function bg_light_green()
+    {
+        return self::BG_LIGHT_GREEN;
+    }
+    public static function bg_light_blue()
+    {
+        return self::BG_LIGHT_BLUE;
+    }
+    public static function bg_light_magenta()
+    {
+        return self::BG_LIGHT_MAGENTA;
+    }
+    public static function bg_light_cyan()
+    {
+        return self::BG_LIGHT_CYAN;
+    }
 }

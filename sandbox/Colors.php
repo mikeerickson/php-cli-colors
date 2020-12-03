@@ -1,7 +1,5 @@
 <?php
 
-namespace App\Mfour\Helpers;
-
 class Colors
 {
     const NORMAL = "\e[0m";
@@ -74,7 +72,7 @@ class Colors
      * @param int $light
      * @return string
      */
-    public static function lwhite($light = 0)
+    public static function lwhite()
     {
         return self::RESET . self::LWHITE;
     }
@@ -144,7 +142,7 @@ class Colors
      */
     public static function lgray()
     {
-        return self::RESET . self:: LGRAY;
+        return self::RESET . self::LGRAY;
     }
 
     /**

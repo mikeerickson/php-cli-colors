@@ -1,6 +1,6 @@
 {
   "name": "php-cli-colors",
-  "version": "1.12.0",
+  "version": "1.12.1",
   "description": "Liven up you PHP Console Apps with standard colors!",
   "main": "index.js",
   "scripts": {
